@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY MAP</title>
+		<link rel="stylesheet" type="text/css" href="css/leaflet.css">
+		<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" /> -->
+        
+<style type="text/css">
+		#map{
+			height: 500px;
+			width:100%;
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+<body>
+<div id="map" class="map">
+	
+</div>
+<button onclick="takeTOUR()">TAKE TOUR</button>
+<div id="fooeter" class="fooeter">
+		<a href="homepage.HTML">click here to go back</a>
+
+</div>
+     
+	<script src="javascript/leaflet.js"></script>
+    <script src="data/sciencepark.geojson"></script>
+    <script type="text/javascript" src="data/Boundary.geojson"></script>
+    <script type="text/javascript" src="data/Forest.geojson"></script>
+    <script type="text/javascript" src="data/Building.geojson"></script>
+    <script type="text/javascript" src="data/Footpath.geojson"></script>
+    <script type="text/javascript" src="data/Footbal_pitch.geojson"></script>
+    <script type="text/javascript" src="data/Maize_plantation.geojson"></script>
+    <!-- <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script> -->
+    <script src="data/Coffee_plantation.geojson"></script>
+    <script type="text/javascript" src="javascript/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="javascript/maps.js"></script>
+
+
+</body>
+
+</html>
